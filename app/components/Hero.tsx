@@ -8,7 +8,9 @@ import Marquee from 'react-fast-marquee';
 
 const Hero = () => {
   return (
-    <div className="w-full">
+    <div className="w-full relative overflow-hidden">
+      <div className="absolute top-[-100px] left-[-100px] w-[500px] h-[500px] rounded-full bg-red-500 z-[-1] blur-[128px] opacity-75 animate-pulse delay-100"></div>
+      <div className="absolute bottom-[-100px] right-[-100px] w-[400px] h-[400px] rounded-full bg-red-500 z-[10] blur-[128px] opacity-80 animate-pulse"></div>
       <div className="w-full h-screen py-10 flex justify-center items-center">
         <div className="h-full flex flex-col justify-between items-center gap-4">
           <div className="flex items-center justify-center gap-6">
