@@ -23,7 +23,7 @@ const ScrollSection = () => {
         scrollTrigger: {
           trigger: triggerRef.current,
           start: 'top top',
-          end: '2000 top',
+          end: '7500 top',
           scrub: 0.6,
           pin: true,
         },
