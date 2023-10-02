@@ -3,7 +3,7 @@ import CustomCursor from './components/CustomCursor';
 import Hero from './components/Hero';
 import ScrollSection from './components/ScrollSection';
 import Warning from './components/Warning';
-import Coba from './components/Coba';
+import Greet from './components/Greet';
 
 export default function Home() {
   return (
@@ -17,10 +17,8 @@ export default function Home() {
       <div className="hidden xl:block w-full">
         <CustomCursor />
         <Hero />
-        <Coba />
-        <section data-bgcolor="#353535" data-textcolor="#ffffff">
-          <ScrollSection />
-        </section>
+        <Greet />
+        <ScrollSection />
       </div>
     </div>
   );

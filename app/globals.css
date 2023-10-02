@@ -10,14 +10,15 @@ body {
   background-color: #000000;
 }
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+.text-reveal-hero {
+  text-shadow:
+      0px 0px 0 #ffffff,
+      -1px -1px 0 #ffffff,
+      1px -1px 0 #ffffff,
+      -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-  -ms-overflow-style: none;
-  /* IE and Edge */
-  scrollbar-width: none;
-  /* Firefox */
+.text-reveal {
+  filter: drop-shadow(0 0 0.06rem rgb(255, 255, 255));
 }

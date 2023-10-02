@@ -168,7 +168,9 @@ const Hero = () => {
               ref={sectionRef3}
               className="flex flex-col items-center gap-2 relative z-[3]"
             >
-              <h2 className="text-7xl font-semibold">Final Report</h2>
+              <h2 className="text-[15vw] text-reveal-hero text-black font-semibold">
+                Final Report
+              </h2>
               <h4 className="text-xl font-normal">
                 12 June - 12 October
               </h4>
