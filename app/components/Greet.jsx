@@ -26,34 +26,34 @@ const Greet = () => {
         trigger: triggerRef.current,
         scrub: true,
         start: 'top center',
-        end: '3200 bottom',
+        end: 'bottom 85%',
       },
       color: '#FFFFFF',
       duration: 1,
       stagger: 1,
     });
 
-    const anim2 = gsap.to(sectionRef.current, {
-      y: () =>
-        -(
-          document.getElementById('containerText').scrollHeight -
-          document.documentElement.clientHeight
-        ),
-      ease: 'none',
-      duration: 1,
-      stagger: 1,
-      scrollTrigger: {
-        trigger: triggerRef.current,
-        scrub: true,
-        pin: true,
-        start: 'top top',
-        end: '2500 bottom',
-      },
-    });
+    // const anim2 = gsap.to(sectionRef.current, {
+    //   y: () =>
+    //     -(
+    //       document.getElementById('containerText').scrollHeight -
+    //       document.documentElement.clientHeight
+    //     ),
+    //   ease: 'none',
+    //   duration: 1,
+    //   stagger: 1,
+    //   scrollTrigger: {
+    //     trigger: triggerRef.current,
+    //     scrub: true,
+    //     pin: true,
+    //     start: 'top top',
+    //     end: '2500 bottom',
+    //   },
+    // });
 
     return () => {
+      // anim2.kill();
       anim.kill();
-      anim2.kill();
     };
   }, [lettersRef]);
   return (
@@ -61,7 +61,7 @@ const Greet = () => {
       <div>
         <div
           ref={triggerRef}
-          className="w-full h-[130vh] py-[20vh] mt-[-30vh] bg-[#101010]"
+          className="w-full py-[20vh] mt-[-30vh] bg-[#101010]"
         >
           <div
             id="containerText"

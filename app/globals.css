@@ -22,3 +22,21 @@ body {
 .text-reveal {
   filter: drop-shadow(0 0 0.06rem rgb(255, 255, 255));
 }
+
+@layer utilities {
+  .link {
+    @apply bg-transparent rounded-full flex justify-center items-center text-white border border-white text-xl font-normal relative w-40 h-40 overflow-hidden
+  }
+
+  .link::before {
+    @apply content-[''] absolute w-full h-full bg-white top-0 left-0 scale-x-0 transition-transform ease-in-out origin-right duration-500
+  }
+
+  .link:hover {
+    @apply text-black border-black
+  }
+
+  .link:hover::before {
+    @apply scale-x-100 origin-left
+  }
+}
