@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: 'Frans | Inagata Final Report',
   description:
     'Frans is a front end developer who specializes in building digital products powered with popular technologies.',
-  icons: '/icons/face.svg',
 };
 
 export default function RootLayout({

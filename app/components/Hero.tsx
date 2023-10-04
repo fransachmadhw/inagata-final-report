@@ -137,11 +137,11 @@ const Hero = () => {
     <div className="w-full overflow-hidden">
       <div
         ref={sectionRef5}
-        className="fixed translate-x-[-50%] translate-y-[-50%] top-[50%] left-[30%] w-[300px] h-[300px] xl:w-[500px] xl:h-[500px] rounded-full bg-red-500 blur-[128px] opacity-75 z-[2]"
+        className="fixed translate-x-[-50%] translate-y-[-50%] top-[50%] left-[30%] w-[300px] h-[300px] 2xl:w-[500px] 2xl:h-[500px] rounded-full bg-red-500 blur-[128px] opacity-75 z-[2]"
       ></div>
       <div
         ref={sectionRef6}
-        className="fixed translate-x-[-50%] translate-y-[-50%] top-[50%] right-[30%] w-[200px] h-[200px] xl:w-[350px] xl:h-[350px] rounded-full bg-red-700 blur-[128px] opacity-75 z-[2]"
+        className="fixed translate-x-[-50%] translate-y-[-50%] top-[50%] right-[30%] w-[200px] h-[200px] 2xl:w-[350px] 2xl:h-[350px] rounded-full bg-red-700 blur-[128px] opacity-75 z-[2]"
       ></div>
       <div ref={triggerRef}>
         <div
