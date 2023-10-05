@@ -1,0 +1,76 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "title": "ZADA KHEIR",
+            "slug": "zada-kheir",
+            "technologies": "React, JavaScript, Tailwind CSS, Flowbite",
+            "date": "June 2023",
+            "videoUrl": "https://res.cloudinary.com/dsi7kpw3a/video/upload/v1696473970/inagata-video/pya3zcicim0zcevcdpra.mp4",
+            "url": "https://zadakheir.netlify.app/"
+        },
+        {
+            "id": 2,
+            "title": "Framer PCNU Kota Batu",
+            "slug": "framer-pcnu-kota-batu",
+            "technologies": "Figma, Framer",
+            "date": "June 2023",
+            "videoUrl": "https://res.cloudinary.com/dsi7kpw3a/video/upload/v1696474871/inagata-video/wzndc2vdfrhtnm2mmtee.mp4",
+            "url": "https://pcnu-kotabatu.framer.website/"
+        },
+        {
+            "id": 3,
+            "title": "Hunian Landing Page",
+            "slug": "hunian-landing-page",
+            "technologies": "HTML, CSS, JavaScript, Bootstrap",
+            "date": "July 2023",
+            "videoUrl": "https://res.cloudinary.com/dsi7kpw3a/video/upload/v1696477994/inagata-video/vbmdtqo6uc2agcfsibjh.mp4",
+            "url": "https://hub-academy-inagata.github.io/Frans-HunianLandingPage/"
+        },
+        {
+            "id": 4,
+            "title": "Inagata Mini Website",
+            "slug": "inagata-mini-website",
+            "technologies": "HTML, CSS, JavaScript, Bootstrap",
+            "date": "July 2023",
+            "videoUrl": "https://res.cloudinary.com/dsi7kpw3a/video/upload/v1696478393/inagata-video/epxjnxtndwopph3hzyk7.mp4",
+            "url": "https://hub-academy-inagata.github.io/Frans_miniwebsite/en/"
+        },
+        {
+            "id": 5,
+            "title": "UNICLOTH",
+            "slug": "unicloth",
+            "technologies": "Figma, Framer",
+            "date": "August 2023",
+            "videoUrl": "https://res.cloudinary.com/dsi7kpw3a/video/upload/v1696478717/inagata-video/p6fgemujs8xptdyp3rwb.mp4",
+            "url": "https://unicloth.framer.website/"
+        },
+        {
+            "id": 6,
+            "title": "Airbnb Clone",
+            "slug": "airbnb-clone",
+            "technologies": "Next.js, TypeScript, MongoDB, Zustand, Prisma ORM, Tailwind CSS",
+            "date": "August 2023 (Still on going)",
+            "videoUrl": "https://res.cloudinary.com/dsi7kpw3a/video/upload/v1696479290/inagata-video/etxrf7zb3l3sn8ugjffs.mp4",
+            "url": "https://nextjs-airbnb-clone-test-frans-1f8l3t7y5-fransachmadhw.vercel.app/"
+        },
+        {
+            "id": 7,
+            "title": "ABCenter Maps",
+            "slug": "abcenter-maps",
+            "technologies": "HTML, CSS, JavaScript, Bootstrap",
+            "date": "August 2023",
+            "videoUrl": "https://res.cloudinary.com/dsi7kpw3a/video/upload/v1696480241/inagata-video/dgdahjesqtpwppiwliey.mp4",
+            "url": "https://hub-academy-inagata.github.io/Frans_Maps/"
+        },
+        {
+            "id": 8,
+            "title": "KBIHU Landing Page",
+            "slug": "kbihu-landing-page",
+            "technologies": "Laravel, Vite, Tailwind CSS",
+            "date": "September 2023",
+            "videoUrl": "https://res.cloudinary.com/dsi7kpw3a/video/upload/v1696480714/inagata-video/jyovi9z6ufld5oxbjnjx.mp4",
+            "url": "https://kbih.project.inagata.com/"
+        }
+    ]
+}
