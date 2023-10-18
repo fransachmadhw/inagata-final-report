@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import ScrollSection from './components/ScrollSection';
 import Warning from './components/Warning';
 import Greet from './components/Greet';
+import Goodbye from './components/Goodbye';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <Greet />
         <ScrollSection />
+        <Goodbye />
       </div>
     </div>
   );
