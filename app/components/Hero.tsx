@@ -137,11 +137,11 @@ const Hero = () => {
     <div className="w-full overflow-hidden">
       <div
         ref={sectionRef5}
-        className="fixed translate-x-[-50%] translate-y-[-50%] top-[50%] left-[30%] w-[300px] h-[300px] 2xl:w-[500px] 2xl:h-[500px] rounded-full bg-red-500 blur-[128px] opacity-75 z-[2]"
+        className="fixed translate-x-[-50%] translate-y-[-50%] top-[50%] left-[30%] w-[300px] h-[300px] 2xl:w-[500px] 2xl:h-[500px] 3xl:w-[700px] 3xl:h-[700px] rounded-full bg-red-500 blur-[128px] opacity-75 z-[2]"
       ></div>
       <div
         ref={sectionRef6}
-        className="fixed translate-x-[-50%] translate-y-[-50%] top-[50%] right-[30%] w-[200px] h-[200px] 2xl:w-[350px] 2xl:h-[350px] rounded-full bg-red-700 blur-[128px] opacity-75 z-[2]"
+        className="fixed translate-x-[-50%] translate-y-[-50%] top-[50%] right-[30%] w-[200px] h-[200px] 2xl:w-[350px] 2xl:h-[350px] 3xl:w-[500px] 3xl:h-[500px] rounded-full bg-red-700 blur-[128px] opacity-75 z-[2]"
       ></div>
       <div ref={triggerRef}>
         <div
@@ -156,12 +156,12 @@ const Hero = () => {
               <Image
                 src={UMLogo}
                 alt="UM-Logo"
-                className="w-10 xl:w-[70px]"
+                className="w-10 xl:w-[70px] 2xl:w-[100px] 3xl:w-[130px]"
               />
               <Image
                 src={InagataLogo}
                 alt="Inagata-Logo"
-                className="w-10 xl:w-[200px]"
+                className="w-10 xl:w-[200px] 2xl:w-[230px] 3xl:w-[260px]"
               />
             </div>
             <div
@@ -171,18 +171,18 @@ const Hero = () => {
               <h2 className="text-[15vw] text-reveal-hero text-black font-semibold">
                 Final Report
               </h2>
-              <h4 className="text-xl font-normal">
+              <h4 className="text-xl 2xl:text-2xl 3xl:text-3xl font-normal">
                 12 June - 12 October
               </h4>
             </div>
             <div ref={sectionRef4} className="w-[50%] relative z-0">
               <Marquee autoFill gradient gradientColor="rgb(0, 0, 0)">
                 <div className="flex items-center justify-center gap-5 px-5">
-                  <h4 className="uppercase text-2xl font-normal">
+                  <h4 className="uppercase text-2xl 2xl:text-3xl 3xl:text-4xl font-normal">
                     Frans Achmad Hendra Winata
                   </h4>
                   <div className="text-2xl font-normal">|</div>
-                  <h4 className="uppercase text-2xl font-normal">
+                  <h4 className="uppercase text-2xl 2xl:text-3xl 3xl:text-4xl font-normal">
                     Front End Development
                   </h4>
                 </div>

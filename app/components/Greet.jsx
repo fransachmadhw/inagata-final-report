@@ -61,7 +61,7 @@ const Greet = () => {
       <div>
         <div
           ref={triggerRef}
-          className="w-full py-[20vh] mt-[-30vh] bg-[#101010]"
+          className="w-full py-[20vh] 3xl:py-[10vh] mt-[-30vh] 3xl:mt-[0vh] bg-[#101010]"
         >
           <div
             id="containerText"

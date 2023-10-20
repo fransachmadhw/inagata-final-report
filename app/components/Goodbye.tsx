@@ -115,9 +115,9 @@ const Goodbye = () => {
         scrollTrigger: {
           trigger: sectionRef1.current,
           start: 'top top',
-          end: '1000 bottom',
+          end: '1200 bottom',
           scrub: 1,
-          pin: false,
+          pin: true,
         },
       }
     );
@@ -143,7 +143,7 @@ const Goodbye = () => {
           ></div>
           <div
             ref={sectionRef6}
-            className="absolute translate-x-[-50%] translate-y-[-50%] top-[20%] left-[50%] z-[0] flex justify-center items-center text-neutral-300 font-normal"
+            className="absolute translate-x-[-50%] translate-y-[-50%] top-[20%] left-[50%] z-[0] flex justify-center items-center text-neutral-300 font-normal text-xl 2xl:text-3xl"
           >
             Scroll
           </div>
@@ -155,10 +155,10 @@ const Goodbye = () => {
               <h2 className="text-[6vw] text-white font-semibold mb-0 leading-none">
                 Thank you
               </h2>
-              <h2 className="text-[6vw] text-white font-semibold mb-0 leading-none">
+              <h2 className="text-[6vw] text-white font-semibold mb-5 2xl:mb-10 leading-none">
                 Inagata Technosmith
               </h2>
-              <h4 className="text-xl font-normal">
+              <h4 className="text-xl 2xl:text-3xl 3xl:text-4xl font-normal">
                 I learnt a lot of thing which very valuable for me
               </h4>
             </div>

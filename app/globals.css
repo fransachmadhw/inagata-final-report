@@ -25,7 +25,7 @@ body {
 
 @layer utilities {
   .link {
-    @apply bg-transparent rounded-full flex justify-center items-center text-white border border-white text-xl font-normal relative w-40 h-40 overflow-hidden
+    @apply bg-transparent rounded-full flex justify-center items-center text-white border border-white text-xl 2xl:text-2xl 3xl:text-3xl font-normal relative w-40 h-40 2xl:w-56 2xl:h-56 3xl:w-64 3xl:h-64 overflow-hidden
   }
 
   .link::before {

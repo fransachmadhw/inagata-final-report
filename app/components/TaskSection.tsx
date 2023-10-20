@@ -34,28 +34,23 @@ const TaskSection: React.FC<TaskSectionProps> = ({
             >
               <source src={videoUrl} type="video/mp4" />
             </video>
-            {/* <div className="video-overlay absolute flex w-full h-full bg-neutral-900 top-0 left-0 right-0 bottom-0 opacity-50 justify-center items-center px-20 transition ease-in-out z-[99] hover:opacity-90">
-              <p className="text-white text-lg text-center">
-                Discover the Perfect Blend of Modesty and Fashion at
-                Zadakheir Fashion. Shop Now and Embrace Your Unique
-                Style with Confidence!
-              </p>
-            </div> */}
           </div>
           <div className="w-[35%] h-full bg-transparent">
-            <div className="w-full h-full flex flex-col items-end justify-between text-right text-white pl-10 py-6">
+            <div className="w-full h-full flex flex-col items-end justify-between text-right text-white pl-10 py-6 3xl:py-20">
               <a
                 href={url}
                 target="_blank"
-                className="text-5xl font-medium"
+                className="text-5xl 2xl:text-6xl 3xl:text-[92px] font-medium"
               >
                 {title}
               </a>
               <div className="text-neutral-300 flex flex-col items-end gap-3">
-                <p className="text-xl font-normal">
+                <p className="text-xl 2xl:text-[28px] 3xl:text-4xl font-normal">
                   Technologies: {technologies}
                 </p>
-                <p className="text-xl font-normal">{date}</p>
+                <p className="text-xl 2xl:text-[28px] 3xl:text-4xl font-normal">
+                  {date}
+                </p>
               </div>
               <a href={url} target="_blank" className="link">
                 <span className="z-10">Find out</span>
