@@ -5,6 +5,7 @@ import ScrollSection from './components/ScrollSection';
 import Warning from './components/Warning';
 import Greet from './components/Greet';
 import Goodbye from './components/Goodbye';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Greet />
         <ScrollSection />
         <Goodbye />
+        <Contact />
       </div>
     </div>
   );

@@ -3,6 +3,8 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import Image from 'next/image';
+import Photo from '@/public/images/thankyou.jpg';
 
 const Goodbye = () => {
   const sectionRef1 = useRef(null);
@@ -135,22 +137,18 @@ const Goodbye = () => {
       <div ref={triggerRef}>
         <div
           ref={sectionRef1}
-          className="w-full h-screen py-10 flex justify-center items-center"
+          className="w-full h-auto py-10 flex justify-center items-center"
         >
-          <div
-            ref={sectionRef5}
-            className="absolute translate-x-[-50%] translate-y-[-50%] top-[60%] left-[50%] w-[300px] h-[300px] 2xl:w-[500px] 2xl:h-[500px] bg-neutral-700 z-[0] opacity-75"
-          ></div>
           <div
             ref={sectionRef6}
             className="absolute translate-x-[-50%] translate-y-[-50%] top-[20%] left-[50%] z-[0] flex justify-center items-center text-neutral-300 font-normal text-xl 2xl:text-3xl"
           >
             Scroll
           </div>
-          <div className="h-full flex flex-col justify-start items-center gap-4">
+          <div className="h-full flex flex-col justify-start items-center gap-8">
             <div
               ref={sectionRef3}
-              className="flex flex-col items-center gap-1 relative z-[3] pt-20 2xl:pt-32"
+              className="flex flex-col items-center gap-1 relative z-[3]"
             >
               <h2 className="text-[6vw] text-white font-semibold mb-0 leading-none">
                 Thank you
@@ -161,6 +159,18 @@ const Goodbye = () => {
               <h4 className="text-xl 2xl:text-3xl 3xl:text-4xl font-normal">
                 I learnt a lot of thing which very valuable for me
               </h4>
+            </div>
+            <div
+              ref={sectionRef5}
+              className="relative w-[700px] h-[500px] 2xl:w-[800px] 2xl:h-[600px] 3xl:w-[900px] 3xl:h-[700px] bg-neutral-700 z-[0] overflow-visible"
+            >
+              <Image
+                alt="thank-you"
+                src={Photo}
+                objectFit="cover"
+                fill
+                placeholder="blur"
+              />
             </div>
           </div>
         </div>
