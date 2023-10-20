@@ -117,7 +117,7 @@ const Goodbye = () => {
           start: 'top top',
           end: '1200 bottom',
           scrub: 1,
-          pin: true,
+          pin: false,
         },
       }
     );
