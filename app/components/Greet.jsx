@@ -65,7 +65,7 @@ const Greet = () => {
         >
           <div
             id="containerText"
-            className="w-full h-fit container mx-auto pl-[10%] pr-[20%]"
+            className="w-full h-fit container mx-auto pl-[10%] pr-[30%] 2xl:pr-[35%] 3xl:pr-[38%]"
             ref={sectionRef}
           >
             {text.split('').map((letter, index) => (

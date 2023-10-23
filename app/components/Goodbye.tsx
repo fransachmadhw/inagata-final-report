@@ -145,7 +145,7 @@ const Goodbye = () => {
           >
             Scroll
           </div>
-          <div className="h-full flex flex-col justify-start items-center gap-8">
+          <div className="h-full flex flex-col justify-start items-center  gap-8 pt-10 2xl:pt-20 3xl:pt-32">
             <div
               ref={sectionRef3}
               className="flex flex-col items-center gap-1 relative z-[3]"

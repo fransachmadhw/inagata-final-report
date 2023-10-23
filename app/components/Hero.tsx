@@ -153,16 +153,20 @@ const Hero = () => {
               ref={sectionRef2}
               className="flex items-center justify-center gap-6"
             >
-              <Image
-                src={UMLogo}
-                alt="UM-Logo"
-                className="w-10 xl:w-[70px] 2xl:w-[100px] 3xl:w-[130px]"
-              />
-              <Image
-                src={InagataLogo}
-                alt="Inagata-Logo"
-                className="w-10 xl:w-[200px] 2xl:w-[230px] 3xl:w-[260px]"
-              />
+              <a href="https://um.ac.id/" target="_blank">
+                <Image
+                  src={UMLogo}
+                  alt="UM-Logo"
+                  className="w-10 xl:w-[70px] 2xl:w-[100px] 3xl:w-[130px]"
+                />
+              </a>
+              <a href="https://www.inagata.com/" target="_blank">
+                <Image
+                  src={InagataLogo}
+                  alt="Inagata-Logo"
+                  className="w-10 xl:w-[200px] 2xl:w-[230px] 3xl:w-[260px]"
+                />
+              </a>
             </div>
             <div
               ref={sectionRef3}
