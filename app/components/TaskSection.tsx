@@ -23,7 +23,7 @@ const TaskSection: React.FC<TaskSectionProps> = ({
 }) => {
   return (
     <div className="w-screen h-screen">
-      <div className="w-full h-full container mx-auto px-20 py-32 2xl:px-10 2xl:py-40 3xl:py-72">
+      <div className="w-full h-full container mx-auto px-20 py-32 2xl:px-10 2xl:py-[10%] 3xl:py-[12%]">
         <div className="w-full h-full flex flex-row gap-5 2xl:gap-7 justify-between items-start">
           <div className="video-container w-[65%] h-full bg-neutral-900 relative overflow-hidden">
             <video
